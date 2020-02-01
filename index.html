@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylez.css">
+    <title>Pacer Quiz</title>
+</head>
+<body>
+
+    <!-- Top Section -->
+    <div class="intro py-3 text-center">
+        <div class="container">
+            <h2 class="head-text display-3 my-4">Pacer Quiz</h2>
+        </div>
+    </div>
+
+    <!-- Result Section-->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead"></div>
+        <p class="scoreline">You are <span class="display-4 p-3">0%</span>Correct</p>
+        <input type="button" class="btn btn-outline-secondary" value="Play Again" onClick="location.href=location.href">
+    </div>
+
+    <!-- Quiz Section-->
+    <div class="quiz py-4">
+        <div class="container">
+            <h2 class="my-5 text-white">No Cheating! - 99% Will Fail This Quiz</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. Who is the all-time leading scorer in Pacer history?</p>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class=form-check-label>Reggie Miller</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q1" value="B">
+                        <label class=form-check-label>Paul George - traitor</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q1" value="C">
+                        <label class=form-check-label>Rik Smits</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. Which of these was involved in the famous Malice at the Palace brawl?</p>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class=form-check-label>Ron Artest</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="B">
+                        <label class=form-check-label>Stephen Jackson</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="C">
+                        <label class=form-check-label>Jermaine O'Neal</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="D">
+                        <label class=form-check-label>Ben Wallace</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="E">
+                        <label class=form-check-label>A Cup</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="F">
+                        <label class=form-check-label>A Broom</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="G">
+                        <label class=form-check-label>All of the above</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Who is the worst/softest rebounder in Pacer history?</p>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class=form-check-label>T.J. Leaf</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q3" value="B">
+                        <label class=form-check-label>Jonathon Bender</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q3" value="C">
+                        <label class=form-check-label>Myles Turner</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q3" value="D">
+                        <label class=form-check-label>Austin Croshere</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Who is the Pacers' all-time leader in defensive box plus/minus?</p>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class=form-check-label>Roy Hibbert</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q4" value="B">
+                        <label class=form-check-label>Myles Turner</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q4" value="C">
+                        <label class=form-check-label>Scot Pollard</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q4" value="D">
+                        <label class=form-check-label>Ian Mahinmi</label>
+                    </div>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q4" value="E">
+                        <label class=form-check-label>WTF??</label>
+                    </div>
+                </div>
+                  <div class="text-center">
+                  <input type="submit" class="btn btn-light">
+                  </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
